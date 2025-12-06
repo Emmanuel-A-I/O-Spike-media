@@ -342,12 +342,18 @@ nav.scrolled {
 .booking-cta {
     padding: 120px 0;
 }
-.features-section{
+.features-section {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(asset/paschal.jpg);
-background-attachment: fixed;
-     background-possition: center;
-      background-size: cover;
-    
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Mobile fallback */
+@media (max-width: 768px) {
+    .features-section {
+        background-attachment: scroll;
+    }
 }
 .features-section p{
     color: #fff!important;
