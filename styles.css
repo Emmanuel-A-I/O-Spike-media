@@ -344,8 +344,9 @@ nav.scrolled {
 }
 .features-section{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(asset/paschal.jpg);
-    background-possition: center;
 background-attachment: fixed;
+     background-possition: center;
+      background-size: cover;
     
 }
 .features-section p{
