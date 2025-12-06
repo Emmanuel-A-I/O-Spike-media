@@ -352,7 +352,7 @@ nav.scrolled {
 /* Mobile fallback */
 @media (max-width: 768px) {
     .features-section {
-        background-attachment: scroll;
+        background-attachment: fixed;
     }
 }
 .features-section p{
