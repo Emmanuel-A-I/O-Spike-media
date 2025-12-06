@@ -346,6 +346,7 @@ nav.scrolled {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(asset/paschal.jpg);
 background-size: cover;
     background-possition: center;
+background-attachment: fixed;
     
 }
 .features-section p{
